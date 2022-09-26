@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 table {
   border: solid 5px black;
   text-align: center;
@@ -11,7 +16,7 @@ h1 {
 td,
 th {
   padding: 1em;
-  border: 1px solid black;
+  outline: 2px solid black;
 }
 
 th {
